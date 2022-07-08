@@ -1,0 +1,129 @@
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.deps.json
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.runtimeconfig.json
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.runtimeconfig.dev.json
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.dll
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.pdb
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.Views.dll
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.Views.pdb
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\BL.dll
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\DL.dll
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\BL.pdb
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\DL.pdb
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.csprojAssemblyReference.cache
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.RazorAssemblyInfo.cache
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.RazorAssemblyInfo.cs
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.AssemblyInfo.cs
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.TagHelpers.input.cache
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.TagHelpers.output.cache
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.RazorCoreGenerate.cache
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\EmployeeView.g.cshtml.cs
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Employee\Details.g.cshtml.cs
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Employee\Index.g.cshtml.cs
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.RazorTargetAssemblyInfo.cache
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.RazorTargetAssemblyInfo.cs
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.Views.pdb
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.csproj.CopyComplete
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.dll
+C:\Users\user\source\repos\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.pdb
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.deps.json
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.runtimeconfig.json
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.runtimeconfig.dev.json
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.dll
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.pdb
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.Views.dll
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.Views.pdb
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\BE.dll
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\BL.dll
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\DL.dll
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\BL.pdb
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\DL.pdb
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\BE.pdb
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.csproj.AssemblyReference.cache
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.AssemblyInfoInputs.cache
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.AssemblyInfo.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.RazorAssemblyInfo.cache
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.RazorAssemblyInfo.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.TagHelpers.input.cache
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.TagHelpers.output.cache
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.RazorCoreGenerate.cache
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\EmployeeView.cshtml.g.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Employee\Details.cshtml.g.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Employee\Index.cshtml.g.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.RazorTargetAssemblyInfo.cache
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.RazorTargetAssemblyInfo.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.Views.pdb
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.csproj.CopyComplete
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.dll
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.pdb
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.genruntimeconfig.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.deps.json
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.runtimeconfig.json
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.runtimeconfig.dev.json
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.Views.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\EmployeeApp.Views.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\BE.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\BL.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\DL.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\BL.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\DL.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp2.1\BE.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.RazorAssemblyInfo.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.RazorAssemblyInfo.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.TagHelpers.input.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.TagHelpers.output.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.RazorCoreGenerate.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\EmployeeView.cshtml.g.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Employee\Details.cshtml.g.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Employee\Index.cshtml.g.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.RazorTargetAssemblyInfo.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.RazorTargetAssemblyInfo.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.Views.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.csproj.CopyComplete
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp2.1\EmployeeApp.genruntimeconfig.cache

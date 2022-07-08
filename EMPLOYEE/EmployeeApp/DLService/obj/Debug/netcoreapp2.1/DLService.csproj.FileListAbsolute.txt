@@ -1,0 +1,9 @@
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\DLService.deps.json
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\DLService.dll
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\DLService.pdb
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.AssemblyInfoInputs.cache
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.AssemblyInfo.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.dll
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.pdb

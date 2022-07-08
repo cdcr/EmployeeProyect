@@ -1,0 +1,50 @@
+C:\Users\user\source\repos\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\DL.deps.json
+C:\Users\user\source\repos\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\DL.dll
+C:\Users\user\source\repos\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\DL.pdb
+C:\Users\user\source\repos\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\BL.dll
+C:\Users\user\source\repos\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\source\repos\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\BL.pdb
+C:\Users\user\source\repos\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\user\source\repos\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.csprojAssemblyReference.cache
+C:\Users\user\source\repos\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.AssemblyInfo.cs
+C:\Users\user\source\repos\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.csproj.CopyComplete
+C:\Users\user\source\repos\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.dll
+C:\Users\user\source\repos\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.pdb
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\DL.deps.json
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\DL.dll
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\DL.pdb
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\BE.dll
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\BL.dll
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\BE.pdb
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\BL.pdb
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.csproj.AssemblyReference.cache
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.AssemblyInfoInputs.cache
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.AssemblyInfo.cs
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.csproj.CopyComplete
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.dll
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.pdb
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\DL.runtimeconfig.json
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\DL.runtimeconfig.dev.json
+C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.genruntimeconfig.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\DL.deps.json
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\DL.runtimeconfig.json
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\DL.runtimeconfig.dev.json
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\DL.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\DL.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\BE.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\BL.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\BE.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\bin\Debug\netcoreapp2.1\BL.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.csproj.CopyComplete
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DAEmployee\obj\Debug\netcoreapp2.1\DL.genruntimeconfig.cache
