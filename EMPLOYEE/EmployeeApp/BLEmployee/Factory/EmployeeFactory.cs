@@ -13,7 +13,7 @@ namespace Core.Factory
             return new Employee();
         }
 
-        public Employee Build(IEmployeeDTO employeeDTO)
+        public Employee Build(IEmployee employeeDTO)
         {
             try
             {
@@ -48,7 +48,7 @@ namespace Core.Factory
             }
         }
 
-        public List<Employee> GetEmployeeList(List<IEmployeeDTO> employeeListDTO)
+        public List<Employee> GetEmployeeList(List<IEmployee> employeeListDTO)
         {
             try
             {

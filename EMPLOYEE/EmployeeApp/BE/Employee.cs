@@ -19,7 +19,7 @@ namespace BE
         public Employee()
         {
         }
-        public Employee(IEmployeeDTO DTO)
+        public Employee(IEmployee DTO)
         {
             ID = DTO.ID;
             Name = DTO.Name;

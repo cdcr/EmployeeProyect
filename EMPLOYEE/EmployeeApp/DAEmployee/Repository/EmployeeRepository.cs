@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DL.Repository
 {
-    public class EmployeeRepository:BaseRepository<EmployeeDTO>,IEmployeeRepository
+    public class EmployeeRepository:BaseRepository<Employee>,IEmployeeRepository
     {
         public EmployeeRepository(DbContext context):base(context)
         {
