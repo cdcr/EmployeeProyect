@@ -969,19 +969,6 @@
         "runtime": {
           "bin/placeholder/BE.dll": {}
         }
-      },
-      "BL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "BE": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/BL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BL.dll": {}
-        }
       }
     }
   },
@@ -3703,17 +3690,11 @@
       "type": "project",
       "path": "../BE/BE.csproj",
       "msbuildProject": "../BE/BE.csproj"
-    },
-    "BL/1.0.0": {
-      "type": "project",
-      "path": "../BLEmployee/BL.csproj",
-      "msbuildProject": "../BLEmployee/BL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "BE >= 1.0.0",
-      "BL >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 2.1.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.14",
       "Microsoft.EntityFrameworkCore.Tools >= 2.1.14",
@@ -3757,9 +3738,6 @@
           "projectReferences": {
             "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001\\EMPLOYEE\\EmployeeApp\\BE\\BE.csproj": {
               "projectPath": "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001\\EMPLOYEE\\EmployeeApp\\BE\\BE.csproj"
-            },
-            "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001\\EMPLOYEE\\EmployeeApp\\BLEmployee\\BL.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001\\EMPLOYEE\\EmployeeApp\\BLEmployee\\BL.csproj"
             }
           }
         }
@@ -3809,7 +3787,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
       }
     }
   }

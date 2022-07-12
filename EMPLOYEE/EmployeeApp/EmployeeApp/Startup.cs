@@ -4,8 +4,8 @@ using BE.Abstract.Interfaces.Service;
 using Core.Factory;
 using Core.Service;
 using Data.DTO;
-using Data.Repository;
 using DL;
+using DL.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -36,16 +36,17 @@ namespace EmployeeApp
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
+            var configuration = Configuration.GetConnectionString("EmployeeDB");
+            //services.AddTransient<IBaseRepository, BaseRepository>();
             services.AddTransient<IEmployeeClientService, EmployeeClientService>();
             services.AddTransient<IEmployeeFactory, EmployeeFactory>();            
             services.AddTransient<IEmployeeClientRepository, EmployeeClientRepository>();
             services.AddTransient<IEmployeeDTO, EmployeeDTO>();
 
-
-            var conection = @"Server=DESKTOP-P3J47JR; Database=PROYECTO; Trusted_Connection=True; ConnectRetryCount=0";
-            services.AddDbContext<EmployeeContext>(options => options.UseSqlServer(conection));
-
+            
+            //var conection = @"Server=DESKTOP-P3J47JR; Database=PROYECTO; Trusted_Connection=True; ConnectRetryCount=0";
+            services.AddDbContext<EmployeeContext>(options => options.UseSqlServer(configuration));
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

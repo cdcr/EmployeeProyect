@@ -52,3 +52,31 @@ C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\UnitTest\obj\Debug\netcoreapp2.1
 C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.dll
 C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.pdb
 C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.genruntimeconfig.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\nunit.engine.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\nunit.engine.api.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\nunit.engine.core.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\UnitTest.deps.json
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\UnitTest.runtimeconfig.json
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\UnitTest.runtimeconfig.dev.json
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\UnitTest.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\UnitTest.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\BE.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\BL.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\DL.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\BL.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\DL.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\bin\Debug\netcoreapp2.1\BE.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.csproj.CopyComplete
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.genruntimeconfig.cache

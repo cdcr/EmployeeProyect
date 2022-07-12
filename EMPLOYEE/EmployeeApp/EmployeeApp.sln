@@ -9,6 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeApp", "EmployeeApp\
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BL", "BLEmployee\BL.csproj", "{103D1B74-BE15-4ABE-A572-2882CBA92B71}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0F562A07-3880-4DE4-9D5D-8445D238A56E} = {0F562A07-3880-4DE4-9D5D-8445D238A56E}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DL", "DAEmployee\DL.csproj", "{0F562A07-3880-4DE4-9D5D-8445D238A56E}"
 EndProject
@@ -20,6 +23,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BE", "BE\BE.csproj", "{A788989C-686E-49B9-81BB-3EB870F46AA2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DLService", "DLService\DLService.csproj", "{879B0821-EF72-487C-B37A-804728A3F907}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0F562A07-3880-4DE4-9D5D-8445D238A56E} = {0F562A07-3880-4DE4-9D5D-8445D238A56E}
+		{A788989C-686E-49B9-81BB-3EB870F46AA2} = {A788989C-686E-49B9-81BB-3EB870F46AA2}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

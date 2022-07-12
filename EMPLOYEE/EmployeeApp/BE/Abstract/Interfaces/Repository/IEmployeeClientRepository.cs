@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BE.Abstract.Interfaces.Repository
 {
-    public interface IEmployeeClientRepository
+    public interface IEmployeeClientRepository: IBaseRepository<EmployeeDTO>
     {
        List<IEmployeeDTO> GetEmployeeList();
     }

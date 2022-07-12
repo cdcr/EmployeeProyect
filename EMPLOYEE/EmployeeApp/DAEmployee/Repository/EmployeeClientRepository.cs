@@ -1,6 +1,7 @@
 ﻿using BE;
 using BE.Abstract.Interfaces;
 using BE.Abstract.Interfaces.Repository;
+using DL.Repository;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using System;
@@ -9,15 +10,14 @@ using System.IO;
 using System.Linq;
 using System.Net;
 
-
-namespace Data.Repository
+namespace DL.Repository
 {
-    public class EmployeeClientRepository : IEmployeeClientRepository
+    public class EmployeeClientRepository :BaseRepository<EmployeeDTO>,IEmployeeClientRepository
     {
-        IConfiguration configuration;
-        public EmployeeClientRepository(IConfiguration _configuration)
+        IConfiguration _configuration;
+        public EmployeeClientRepository(IConfiguration configuration):base(configuration)
         {
-            configuration = _configuration;
+            _configuration = configuration;
         }
 
         public List<IEmployeeDTO> GetEmployeeList()
@@ -25,7 +25,7 @@ namespace Data.Repository
             try
             {
                 List<EmployeeDTO> jsonResult;
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(configuration.GetSection("EmployeeApiUrl").Value);
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(_configuration.GetSection("EmployeeApiUrl").Value);
                 //request.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;
                 using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
                 using (Stream stream = response.GetResponseStream())

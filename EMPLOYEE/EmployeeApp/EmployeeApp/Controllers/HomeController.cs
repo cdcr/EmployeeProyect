@@ -1,9 +1,14 @@
-﻿using System.Diagnostics;
+﻿using EmployeeApp.Models;
 using Microsoft.AspNetCore.Mvc;
-using EmployeeApp.Models;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace EmployeeApp.Controllers
 {
+
     public class HomeController : Controller
     {
         public IActionResult Index()

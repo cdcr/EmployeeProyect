@@ -2,27 +2,34 @@
 using BE.Abstract.Interfaces;
 using BE.Abstract.Interfaces.Repository;
 using BE.Abstract.Interfaces.Service;
+using DL;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace Core.Service
 {
     public class EmployeeClientService : IEmployeeClientService
     {
-        private IEmployeeFactory EmployeeFact;
-        private IEmployeeClientRepository EmployeeClientRepo;
-        public EmployeeClientService(IEmployeeFactory _EmployeeFact, IEmployeeClientRepository _EmployeeClientRepo)
+        private readonly IConfiguration _configuration;
+        private readonly IEmployeeFactory _employeeFact;
+        //private readonly IUnitOfWork _unitOfWork;
+
+
+        public EmployeeClientService(IEmployeeFactory employeeFact,  
+                                     IConfiguration configuration/*, IUnitOfWork unitOfWork*/)
         {
-            EmployeeFact = _EmployeeFact;
-            EmployeeClientRepo = _EmployeeClientRepo;
+            _configuration = configuration;
+            _employeeFact = employeeFact;
+            //_unitOfWork = unitOfWork;
         }
 
         public double GetAnualSalary(Employee employee)
         {
             try
             {
-                return EmployeeFact.GetAnualSalary(employee);
+                return _employeeFact.GetAnualSalary(employee);
             }
             catch (Exception ex)
             {
@@ -36,8 +43,34 @@ namespace Core.Service
         {
             try
             {
+                
+                var _unitOfWork = new UnitOfWork(null,_configuration);
                 //TODO: Llamar a UnitOfWork 
-                return EmployeeFact.GetEmployeeList(EmployeeClientRepo.GetEmployeeList());
+                    //Llamar directa al repositorio:
+                return _employeeFact.GetEmployeeList(_unitOfWork.EmployeeClientRepository.GetEmployeeList());
+                    //Llamada por medio de UnitOfWork
+                //return EmployeeFact.GetEmployeeList(EmployeeClientRepo.GetEmployeeList());
+            }
+            catch (Exception ex)
+            {
+                ex.Data.Add("EmployeeClientService", "GetEmployeeList()");
+                throw ex;
+            }
+        }
+
+        public List<Employee> GetEmployeeListDB()
+        {
+            try
+            {
+
+                var _unitOfWork = new UnitOfWork(new EmployeeContext(),null) ;
+                //TODO: Llamar a UnitOfWork 
+                //Llamar del servicio
+                //return EmployeeFact.GetEmployeeList(unit.EmployeeClientRepository.GetEmployeeList());
+                //List<IEmployeeDTO> employeeListDTO = unit.EmployeeRepository.GetAll().Cast<IEmployeeDTO>().ToList();
+                //Llamar de la base de datos
+                return _employeeFact.GetEmployeeList(_unitOfWork.EmployeeRepository.GetAll().Cast<IEmployeeDTO>().ToList());
+                //return EmployeeFact.GetEmployeeList(EmployeeClientRepo.GetEmployeeList());
             }
             catch (Exception ex)
             {

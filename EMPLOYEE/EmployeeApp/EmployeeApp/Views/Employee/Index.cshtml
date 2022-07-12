@@ -32,6 +32,7 @@
             <th scope="col">@Html.DisplayNameFor(model => model.RoleName)</th>
             <th scope="col">@Html.DisplayNameFor(model => model.RoleDescription)</th>
             <th scope="col">@Html.DisplayNameFor(model => model.AnualSalary)</th>
+            <th scope="col"> Options </th>
         </tr>
     </thead>
     @foreach (var item in Model)
@@ -45,6 +46,12 @@
         <td>@item.RoleName</td>
         <td>@item.RoleDescription</td>
         <td class="text-success">@string.Format("{0:C}", @item.AnualSalary)</td>
+        <td>
+            <form action="https://www.youtube.com/">
+                <button type="submit">Delete</button>
+                <button type="submit">Edit</button>
+            </form>
+        </td>
     </tr>
     }
 </table>

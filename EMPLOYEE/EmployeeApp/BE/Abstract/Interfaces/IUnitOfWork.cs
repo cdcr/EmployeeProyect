@@ -7,7 +7,8 @@ namespace BE.Abstract.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {
-        IEmployeeRepository EmployeeRepository { get; }
+        IEmployeeClientRepository EmployeeClientRepository { get; }
+        //IEmployeeRepository EmployeeRepository { get; }
         int Complete();
     }
 }

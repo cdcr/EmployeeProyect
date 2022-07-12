@@ -109,6 +109,9 @@
             "projectReferences": {
               "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001\\EMPLOYEE\\EmployeeApp\\BE\\BE.csproj": {
                 "projectPath": "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001\\EMPLOYEE\\EmployeeApp\\BE\\BE.csproj"
+              },
+              "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001\\EMPLOYEE\\EmployeeApp\\DAEmployee\\DL.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001\\EMPLOYEE\\EmployeeApp\\DAEmployee\\DL.csproj"
               }
             }
           }
@@ -175,9 +178,6 @@
             "projectReferences": {
               "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001\\EMPLOYEE\\EmployeeApp\\BE\\BE.csproj": {
                 "projectPath": "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001\\EMPLOYEE\\EmployeeApp\\BE\\BE.csproj"
-              },
-              "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001\\EMPLOYEE\\EmployeeApp\\BLEmployee\\BL.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001\\EMPLOYEE\\EmployeeApp\\BLEmployee\\BL.csproj"
               }
             }
           }
