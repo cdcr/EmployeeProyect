@@ -1,4 +1,5 @@
-﻿using BE.Abstract.Interfaces;
+﻿using BE;
+using BE.Abstract.Interfaces;
 using BE.Abstract.Interfaces.Repository;
 using BE.Abstract.Interfaces.Service;
 using Core.Factory;
@@ -41,9 +42,9 @@ namespace EmployeeApp
             services.AddTransient<IEmployeeClientService, EmployeeClientService>();
             services.AddTransient<IEmployeeFactory, EmployeeFactory>();            
             services.AddTransient<IEmployeeClientRepository, EmployeeClientRepository>();
-            services.AddTransient<IEmployeeDTO, EmployeeDTO>();
+            services.AddTransient<IEmployee, Employee>();
+            //services.AddTransient<IEmployeeDTO, EmployeeDTO>();
 
-            
             //var conection = @"Server=DESKTOP-P3J47JR; Database=PROYECTO; Trusted_Connection=True; ConnectRetryCount=0";
             services.AddDbContext<EmployeeContext>(options => options.UseSqlServer(configuration));
             services.AddTransient<IUnitOfWork, UnitOfWork>();

@@ -21,9 +21,9 @@ namespace EmployeeApp.Controllers
         // GET: Employee
         public ActionResult Index()
         {
-            
-            var employeeList = GetEmployeesFromAPI();
-            //var employeeList = GetEmployeesFromDB();
+
+            //var employeeList = GetEmployeesFromAPI();
+            var employeeList = GetEmployeesFromDB();
             return View(employeeList);
         }
 
@@ -42,10 +42,10 @@ namespace EmployeeApp.Controllers
 
                     if (string.IsNullOrWhiteSpace(sentId) || regex.Match(sentId).Success)
                     {
-                       //Servicio 
-                        var employeeList = GetEmployeesFromAPI(string.IsNullOrWhiteSpace(sentId) ? 0 : int.Parse(sentId));
+                        //Servicio 
+                        //var employeeList = GetEmployeesFromAPI(string.IsNullOrWhiteSpace(sentId) ? 0 : int.Parse(sentId));
                         //Base de Datos
-                        //var employeeList = GetEmployeesFromDB(string.IsNullOrWhiteSpace(sentId) ? 0 : int.Parse(sentId));
+                        var employeeList = GetEmployeesFromDB(string.IsNullOrWhiteSpace(sentId) ? 0 : int.Parse(sentId));
                         ViewBag.Warning = employeeList.Count() + " Result(s)...";
                         return View(employeeList);
                     }
@@ -54,36 +54,36 @@ namespace EmployeeApp.Controllers
                 //return View(employeeFacade.GetEmptyEmployeesList());
                 return View(GetEmptyEmployeesList());
             }
-            catch (Exception ex) 
-            {                
+            catch (Exception ex)
+            {
                 ex.Data.Add("EmployeeController", "HttpPost Index()");
                 //Log Exception from inferior layers
                 return View("Error");
             }
         }
 
+        public IActionResult CreateEmployee()
+        {
+            return View();
+        }
         [HttpPost]
-        public List<EmployeeModel> GetEmployeesFromAPI(int id = 0)
+        public IActionResult CreateEmployee(EmployeeModel employee)
         {
             try
             {
-                var EmployeeModelList = new List<EmployeeModel>();
-                var EmployeeList = id == 0 ?
-                        employeeClientService.GetEmployeeList() :
-                        employeeClientService.GetEmployeeList().Where(x => x.ID == id).ToList();
-                foreach (var employeeListItem in EmployeeList)
+                if (ModelState.IsValid)
                 {
-                    double anualSalary = employeeClientService.GetAnualSalary(employeeListItem);
-                    EmployeeModel employeeModel = new EmployeeModel(employeeListItem, anualSalary);
-                    EmployeeModelList.Add(employeeModel);
+                    //employeeClientService
                 }
-                return EmployeeModelList;
+                return Redirect("~/");
             }
-            catch (System.Exception)
+            catch (Exception ex)
             {
-                throw;
+                throw new Exception(ex.Message);
             }
         }
+
+        [HttpPost]
         public List<EmployeeModel> GetEmployeesFromDB(int id = 0)
         {
             try
@@ -109,6 +109,31 @@ namespace EmployeeApp.Controllers
         {
             return new List<EmployeeModel>();
         }
+
+        #region GetEmployeesfromApi
+        /*
+        public List<EmployeeModel> GetEmployeesFromAPI(int id = 0)
+        {
+            try
+            {
+                var EmployeeModelList = new List<EmployeeModel>();
+                var EmployeeList = id == 0 ?
+                        employeeClientService.GetEmployeeList() :
+                        employeeClientService.GetEmployeeList().Where(x => x.ID == id).ToList();
+                foreach (var employeeListItem in EmployeeList)
+                {
+                    double anualSalary = employeeClientService.GetAnualSalary(employeeListItem);
+                    EmployeeModel employeeModel = new EmployeeModel(employeeListItem, anualSalary);
+                    EmployeeModelList.Add(employeeModel);
+                }
+                return EmployeeModelList;
+            }
+            catch (System.Exception)
+            {
+                throw;
+            }
+        }*/
+        #endregion
 
 
     }

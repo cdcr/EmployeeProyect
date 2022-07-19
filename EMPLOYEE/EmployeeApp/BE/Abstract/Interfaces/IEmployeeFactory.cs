@@ -6,8 +6,11 @@ namespace BE.Abstract.Interfaces
 {
     public interface IEmployeeFactory
     {
-        Employee Build(IEmployeeDTO employeeDTO);
-        List<Employee> GetEmployeeList(List<IEmployeeDTO> employeeListDTO);
+        Employee Build(IEmployee employeeDTO);
+        List<Employee> GetEmployeeList(List<IEmployee> employeeListDTO);
         double GetAnualSalary(Employee employee);
+        /*Employee Build(IEmployeeDTO employeeDTO);
+        List<Employee> GetEmployeeList(List<IEmployeeDTO> employeeListDTO);
+        double GetAnualSalary(Employee employee);*/
     }
 }

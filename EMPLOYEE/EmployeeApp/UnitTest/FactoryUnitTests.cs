@@ -12,7 +12,7 @@ namespace UnitTest
     {
         EmployeeFactory employeeFactory;
         Employee employee;
-        EmployeeDTO employeeDTO;
+        Employee employeeDTO;
         
 
         [Test]
@@ -37,7 +37,7 @@ namespace UnitTest
         [Test]
         public void GetEmployeeList_EmployeeDTOList_EmployeeEntityTypeMatch()
         {
-            var EmployeeDTOList = new List<IEmployeeDTO>{employeeDTO};
+            var EmployeeDTOList = new List<IEmployee>{employeeDTO};
             var employeeList = employeeFactory.GetEmployeeList(EmployeeDTOList);
             Assert.AreEqual(employeeList.GetType(), typeof(List<Employee>));
         }
@@ -55,7 +55,7 @@ namespace UnitTest
             employee.HourlySalary = 20;
             employee.MonthlySalary = 4000;
 
-            employeeDTO = new EmployeeDTO
+            employeeDTO = new Employee
             {
                 ID = 1,
                 Name = "John Smith",

@@ -12,18 +12,18 @@ namespace DL
     public class UnitOfWork : IUnitOfWork
     {
         private readonly DbContext _context;
-        public readonly IConfiguration _configuration;
-        public UnitOfWork(DbContext context, IConfiguration configuration)
+        //public readonly IConfiguration _configuration;
+        public UnitOfWork(DbContext context/*, IConfiguration configuration*/)
         {
             _context = context;
-            _configuration = configuration;
-            EmployeeClientRepository = new EmployeeClientRepository(_configuration);
+            //_configuration = configuration;
+            //EmployeeClientRepository = new EmployeeClientRepository(_configuration);
             EmployeeRepository = new EmployeeRepository(_context);
             
         }
         
         public IEmployeeRepository EmployeeRepository { get; private set; }
-        public IEmployeeClientRepository EmployeeClientRepository { get; private set; }
+        //public IEmployeeClientRepository EmployeeClientRepository { get; private set; }
 
         //Modification
         /*public UnitOfWork(IConfiguration iconfiguration)

@@ -26,8 +26,8 @@ namespace EmployeeApp.Facade
             {
                 var EmployeeModelList = new List<EmployeeModel>();
                 var EmployeeList = id == 0 ?
-                        employeeClientService.GetEmployeeList() :
-                        employeeClientService.GetEmployeeList().Where(x => x.ID == id).ToList();
+                        employeeClientService.GetEmployeeListDB() :
+                        employeeClientService.GetEmployeeListDB().Where(x => x.ID == id).ToList();
                 foreach (var employeeListItem in EmployeeList)
                 {
                     double anualSalary = employeeClientService.GetAnualSalary(employeeListItem);

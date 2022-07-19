@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BE.Abstract.Interfaces.Repository
 {
-    public interface IEmployeeRepository:IBaseRepository<EmployeeDTO>
+    public interface IEmployeeRepository:IBaseRepository<Employee>
     {
     }
 }
