@@ -7,3 +7,33 @@ C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.
 C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.dll
 C:\Users\USUARIO\WORKSPACE\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\DLService.deps.json
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\DLService.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\DLService.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\BE.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\DL.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\BE.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\DL.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.csproj.CopyComplete
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\DLService.deps.json
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\DLService.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\DLService.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\BE.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\DL.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\BE.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLService\bin\Debug\netcoreapp2.1\DL.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.csproj.CopyComplete
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLService\obj\Debug\netcoreapp2.1\DLService.pdb

@@ -7,8 +7,13 @@ namespace BE.Abstract.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {
+        #region SQL
         //IEmployeeClientRepository EmployeeClientRepository { get; }
         IEmployeeRepository EmployeeRepository { get; }
+        IProfileRepository ProfileRepository { get; }
+        //IEmployeeRepository EmployeeClientRepository { get; }
         int Complete();
+        #endregion
+
     }
 }

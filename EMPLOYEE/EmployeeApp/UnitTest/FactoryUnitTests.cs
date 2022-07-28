@@ -47,20 +47,20 @@ namespace UnitTest
         {
             employeeFactory = new EmployeeFactory();
             employee = employeeFactory.Create();
-            employee.ID = 1;
+            employee.Id = 1;
             employee.Name = "John Smith";
-            employee.RoleId = 1;
-            employee.RoleName = "Administrator";
+            employee.ProfileId = 1;
+            employee.ProfileName = "Administrator";
             employee.RoleDescription = "General Administrator";
             employee.HourlySalary = 20;
             employee.MonthlySalary = 4000;
 
             employeeDTO = new Employee
             {
-                ID = 1,
+                Id = 1,
                 Name = "John Smith",
-                RoleId = 1,
-                RoleName = "Administrator",
+                ProfileId = 1,
+                ProfileName = "Administrator",
                 RoleDescription = "General Administrator",
                 HourlySalary = 20,
                 MonthlySalary = 4000

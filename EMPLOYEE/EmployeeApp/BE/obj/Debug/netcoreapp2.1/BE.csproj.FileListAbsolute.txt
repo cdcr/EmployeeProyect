@@ -17,3 +17,13 @@ C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPL
 C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\BE\obj\Debug\netcoreapp2.1\BE.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\BE\obj\Debug\netcoreapp2.1\BE.dll
 C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\BE\obj\Debug\netcoreapp2.1\BE.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001\EMPLOYEE\EmployeeApp\BE\obj\Debug\netcoreapp2.1\BE.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\BE\obj\Debug\netcoreapp2.1\BE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\BE\obj\Debug\netcoreapp2.1\BE.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\BE\obj\Debug\netcoreapp2.1\BE.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\BE\obj\Debug\netcoreapp2.1\BE.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\BE\bin\Debug\netcoreapp2.1\BE.deps.json
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\BE\bin\Debug\netcoreapp2.1\BE.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\BE\bin\Debug\netcoreapp2.1\BE.pdb
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\BE\obj\Debug\netcoreapp2.1\BE.dll
+C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\BE\obj\Debug\netcoreapp2.1\BE.pdb

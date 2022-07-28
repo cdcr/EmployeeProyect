@@ -1,0 +1,53 @@
+﻿@model EmployeeApp.Models.EmployeeCreateModel
+
+@{
+
+    ViewBag.Title = "Edit Employee";
+    List<SelectListItem> items = (List<SelectListItem>)ViewBag.items;
+}
+<h2>Edit Employee</h2>
+
+
+@using (Html.BeginForm("Edit", "Employee", FormMethod.Post))
+{
+    <div class="row">
+        <div class="form-group col-lg-6">
+            @Html.HiddenFor(model => model.Id)
+            <div>
+                @Html.LabelFor(model => model.Name)
+                @Html.TextBoxFor(model => model.Name, "", new { @class = "form-control" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.ContractTypeName)
+                @Html.TextBoxFor(model => model.ContractTypeName, "", new { @class = "form-control" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.ProfileName)
+                @*@Html.TextBoxFor(model => model.ProfileName, "", new { @class = "form-control" })*@
+                @*@Html.DropDownList("Profiles", items, "Select the profile", new { @class = "form-control" })*@
+                @Html.DropDownListFor(model => model.ProfileId, new SelectList(Model.Profiles, "Id", "Name"), "Select the profile", new { @class = "form-control" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.Description)
+                @Html.TextBoxFor(model => model.Description, "", new { @class = "form-control" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.HourlySalary)
+                @Html.TextBoxFor(model => model.HourlySalary, "", new { @class = "form-control" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.MonthlySalary)
+                @Html.TextBoxFor(model => model.MonthlySalary, "", new { @class = "form-control" })
+            </div>
+
+            @*@Html.ValidationMessageFor(model=>model.Name,null,new { @class="red"})*@
+
+            @*@Html.LabelFor(model => model.ProfileId)
+                @Html.TextBoxFor(model => model.ProfileId, "", new { @class = "form-control" })*@
+            <div>
+                <input type="submit" value="Update" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+}
+
