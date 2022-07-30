@@ -3676,11 +3676,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001 - copia\\EMPLOYEE\\EmployeeApp\\DLMongo\\DLMongo.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\REPOS\\EmployeeProyect\\EMPLOYEE\\EmployeeApp\\DLMongo\\DLMongo.csproj",
       "projectName": "DLMongo",
-      "projectPath": "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001 - copia\\EMPLOYEE\\EmployeeApp\\DLMongo\\DLMongo.csproj",
+      "projectPath": "C:\\Users\\USUARIO\\Documents\\REPOS\\EmployeeProyect\\EMPLOYEE\\EmployeeApp\\DLMongo\\DLMongo.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001 - copia\\EMPLOYEE\\EmployeeApp\\DLMongo\\obj\\",
+      "outputPath": "C:\\Users\\USUARIO\\Documents\\REPOS\\EmployeeProyect\\EMPLOYEE\\EmployeeApp\\DLMongo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -3702,8 +3702,8 @@
         "netcoreapp2.1": {
           "targetAlias": "netcoreapp2.1",
           "projectReferences": {
-            "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001 - copia\\EMPLOYEE\\EmployeeApp\\BE\\BE.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001 - copia\\EMPLOYEE\\EmployeeApp\\BE\\BE.csproj"
+            "C:\\Users\\USUARIO\\Documents\\REPOS\\EmployeeProyect\\EMPLOYEE\\EmployeeApp\\BE\\BE.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\Documents\\REPOS\\EmployeeProyect\\EMPLOYEE\\EmployeeApp\\BE\\BE.csproj"
             }
           }
         }

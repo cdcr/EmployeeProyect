@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3UpFSVcydwH58pHFltdxFXU1XwTkyaXSDYIyRt3HsQKKmmBTQ6AoIDSFpbBvCIwCHRHu+nMiHQLmXxFc5yTKGg==",
+  "dgSpecHash": "yd4hVZZLVJ5f0BI/8zsNu5+pEgrIF3SEHegf27gyeMWjGdB8u42ic6AoL35uGVmr0ZybWaZrIRvAx/maJ1K7Tg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001 - copia\\EMPLOYEE\\EmployeeApp\\EmployeeApp\\EmployeeApp.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\REPOS\\EmployeeProyect\\EMPLOYEE\\EmployeeApp\\EmployeeApp\\EmployeeApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\bootstrap\\4.6.0\\bootstrap.4.6.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",

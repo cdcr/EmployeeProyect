@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mjd1tr0JBPQYlq7mM/KRcAHLFuhe70I5oXaVFLQDf2xg0z4n6Wvari6v4iPWZm+bodz7n2ZaUdWww1Sx+C92mg==",
+  "dgSpecHash": "rMC3/ksAmZpCWWlywUQ1Fxf6fUUq0trgwTdWa+hQcJm4pZkY3YpHbGQdty6sBytuJ9kHrjf3tmFiG2b9wpBG0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001 - copia\\EMPLOYEE\\EmployeeApp\\DLMongo\\DLMongo.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\REPOS\\EmployeeProyect\\EMPLOYEE\\EmployeeApp\\DLMongo\\DLMongo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.entityframeworkcore\\2.1.14\\microsoft.entityframeworkcore.2.1.14.nupkg.sha512",

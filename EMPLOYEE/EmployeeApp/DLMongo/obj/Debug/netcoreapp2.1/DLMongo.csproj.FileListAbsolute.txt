@@ -11,3 +11,16 @@ C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - co
 C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLMongo\obj\Debug\netcoreapp2.1\DLMongo.csproj.CopyComplete
 C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLMongo\obj\Debug\netcoreapp2.1\DLMongo.dll
 C:\Users\USUARIO\Documents\VERSIONES ESTABLES\EMPLOYEE-20220708T205533Z-001 - copia\EMPLOYEE\EmployeeApp\DLMongo\obj\Debug\netcoreapp2.1\DLMongo.pdb
+C:\Users\USUARIO\Documents\REPOS\EmployeeProyect\EMPLOYEE\EmployeeApp\DLMongo\bin\Debug\netcoreapp2.1\DLMongo.deps.json
+C:\Users\USUARIO\Documents\REPOS\EmployeeProyect\EMPLOYEE\EmployeeApp\DLMongo\bin\Debug\netcoreapp2.1\DLMongo.dll
+C:\Users\USUARIO\Documents\REPOS\EmployeeProyect\EMPLOYEE\EmployeeApp\DLMongo\bin\Debug\netcoreapp2.1\DLMongo.pdb
+C:\Users\USUARIO\Documents\REPOS\EmployeeProyect\EMPLOYEE\EmployeeApp\DLMongo\bin\Debug\netcoreapp2.1\BE.dll
+C:\Users\USUARIO\Documents\REPOS\EmployeeProyect\EMPLOYEE\EmployeeApp\DLMongo\bin\Debug\netcoreapp2.1\BE.pdb
+C:\Users\USUARIO\Documents\REPOS\EmployeeProyect\EMPLOYEE\EmployeeApp\DLMongo\obj\Debug\netcoreapp2.1\DLMongo.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\REPOS\EmployeeProyect\EMPLOYEE\EmployeeApp\DLMongo\obj\Debug\netcoreapp2.1\DLMongo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\REPOS\EmployeeProyect\EMPLOYEE\EmployeeApp\DLMongo\obj\Debug\netcoreapp2.1\DLMongo.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\REPOS\EmployeeProyect\EMPLOYEE\EmployeeApp\DLMongo\obj\Debug\netcoreapp2.1\DLMongo.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\REPOS\EmployeeProyect\EMPLOYEE\EmployeeApp\DLMongo\obj\Debug\netcoreapp2.1\DLMongo.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\REPOS\EmployeeProyect\EMPLOYEE\EmployeeApp\DLMongo\obj\Debug\netcoreapp2.1\DLMongo.csproj.CopyComplete
+C:\Users\USUARIO\Documents\REPOS\EmployeeProyect\EMPLOYEE\EmployeeApp\DLMongo\obj\Debug\netcoreapp2.1\DLMongo.dll
+C:\Users\USUARIO\Documents\REPOS\EmployeeProyect\EMPLOYEE\EmployeeApp\DLMongo\obj\Debug\netcoreapp2.1\DLMongo.pdb

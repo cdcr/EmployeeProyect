@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SoH0MmQAWqVFj/H/IVrodW5p1aWT6L4rNjUr3YDQ1RQEl8G8dEwd62cRg4jQEYy55FgRLThOQCrfn4cp1FPX3g==",
+  "dgSpecHash": "ne38lrmoFK54jThoJ9O2tcy77RPJEDWiRkFRHe8+xY71tHNzcQTrkLRRz2jvXayU0AEtCUPjQuje9WUGvmUM8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\VERSIONES ESTABLES\\EMPLOYEE-20220708T205533Z-001 - copia\\EMPLOYEE\\EmployeeApp\\BE\\BE.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\REPOS\\EmployeeProyect\\EMPLOYEE\\EmployeeApp\\BE\\BE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.entityframeworkcore\\2.1.14\\microsoft.entityframeworkcore.2.1.14.nupkg.sha512",
