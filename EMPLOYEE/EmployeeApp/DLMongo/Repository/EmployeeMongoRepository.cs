@@ -1,6 +1,8 @@
 ﻿using BE;
 using BE.Abstract.Interfaces.Repository;
+using MongoDB.Bson;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace DLMongo.Repository
 {
@@ -10,10 +12,17 @@ namespace DLMongo.Repository
         {
 
         }
-        public Employee GetEmployeeDetailed(int id)
+
+        public void AddEmployeeDetailed(Employee employee)
         {
             throw new System.NotImplementedException();
         }
+
+        public Employee GetEmployeeDetailed(string id)
+        {
+            throw new System.NotImplementedException();
+        }
+    
         public List<Employee> GetEmployeeDetailedList()
         {
             throw new System.NotImplementedException();
@@ -22,7 +31,7 @@ namespace DLMongo.Repository
         {
             throw new System.NotImplementedException();
         }
-        public void RemoveemployeeDetailed(int id)
+        public void RemoveemployeeDetailed(string id)
         {
             throw new System.NotImplementedException();
         }

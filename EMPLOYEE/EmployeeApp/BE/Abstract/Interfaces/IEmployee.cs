@@ -4,10 +4,9 @@ using System.Text;
 
 namespace BE.Abstract.Interfaces
 {
-    public interface IEmployee
+    public interface IEmployee:IEntityBase
     {
-        int? Id { get; set; }
-        int? ProfileId { get; set; }
+        string ProfileId { get; set; }
         string ProfileName { get; set; }
         string Name { get; set; }
         string ContractTypeName { get; set; }

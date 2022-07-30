@@ -6,9 +6,9 @@ namespace EmployeeApp.Models
 {
     public class EmployeeModel
     {
-        public int? Id { get; set; }
+        public string Id { get; set; }
         [Display(Name = "Profile Id")]
-        public int? ProfileId { get; set; }
+        public string ProfileId { get; set; }
         [Display(Name = "Profile Name")]
         public string ProfileName { get; set; }
         public string Name { get; set; }

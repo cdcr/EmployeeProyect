@@ -16,21 +16,21 @@ namespace BL.Service
         }
         public List<Profile> GetEmployeeProfileListDB()
         {
-            return _unitOfWork.ProfileRepository.GetAll().ToList();
+            return _unitOfWork.ProfileRepository.GetAllProfiles().ToList();
         }
         public List<Profile> GetEmployeeProfileList()
         {
-            var employeeProfiles = _unitOfWork.ProfileRepository.GetAll().ToList();
+            var employeeProfiles = _unitOfWork.ProfileRepository.GetAllProfiles().ToList();
             return employeeProfiles;
         }
 
-        public Profile GetEmployeeProfile(int id)
+        public Profile GetEmployeeProfile(string id)
         {
             return _unitOfWork.ProfileRepository.Get(id);
         }
         public void AddEmployeeProfileDB(Profile employeeProfile)
         {
-            _unitOfWork.ProfileRepository.Add(employeeProfile);
+            _unitOfWork.ProfileRepository.AddNewProfile(employeeProfile);
             _unitOfWork.Complete();
         }
         public void UpdateEmployeeProfileDB(Profile employeePrfofile)

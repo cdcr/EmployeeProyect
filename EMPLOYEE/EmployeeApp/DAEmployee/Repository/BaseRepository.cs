@@ -29,7 +29,7 @@ namespace DL.Repository
             _configuration = configuration;
         }
         // FOR SQL
-        public TEntity Get(int id)
+        public TEntity Get(string id)
         {
             return _context.Set<TEntity>().Find(id);
         }
@@ -58,20 +58,5 @@ namespace DL.Repository
             throw new NotImplementedException();
         }
 
-        public TEntity GetMongo(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IEnumerable<TEntity>> GetAllMongo()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void RemoveMongo(TEntity entity)
-        {
-            throw new NotImplementedException();
-        }
-        
     }
 }

@@ -8,8 +8,9 @@ namespace BE
     {
         [BsonId]
         [Key]
-        public int? Id { get; set; }
-        public int? ProfileId { get; set; }
+        [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
+        public string Id { get; set; }
+        public string ProfileId { get; set; }
         public string ProfileName { get; set; }
         public string Name { get; set; }
         public string ContractTypeName { get; set; }

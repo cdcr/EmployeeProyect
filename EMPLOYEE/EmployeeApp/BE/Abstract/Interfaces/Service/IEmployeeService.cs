@@ -9,14 +9,14 @@ namespace BE.Abstract.Interfaces.Service
         List<Employee> GetEmployeeListDB();
         List<Employee> GetEmployeeListService();
         List<Employee> GetEmployeeList();
-        Employee GetEmployee(int id);
+        Employee GetEmployee(string id);
         double GetAnualSalary(Employee employee);
         void AddEmployeeDB(Employee employee);
         void UpdateEmployeeDB(Employee employee);
         void RemoveemployeeDB(Employee employee);
         ///-Detailed Methods
         List<Employee> GetEmployeeDetailedListDB();
-        Employee GetEmployeeDetailedDB(int id);
+        Employee GetEmployeeDetailedDB(string id);
         void AddEmployeeDetailedDB(Employee employee);
         void UpdateDetailedEmployeeDB(Employee employee);
         void RemoveemployeeDetailedDB(Employee employee);

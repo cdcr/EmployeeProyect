@@ -52,7 +52,7 @@ namespace EmployeeApp.Controllers
         }
         // POST: Employee
         [HttpPost]
-        public IActionResult Index(string id)
+        public IActionResult Index(string id="0")
         {
             try
             {
@@ -71,12 +71,12 @@ namespace EmployeeApp.Controllers
                             employeeList = _memoryCache.GetOrCreate("GetEmpployees",
                             cacheEntry =>
                             {
-                                return GetEmployees(string.IsNullOrWhiteSpace(sentId) ? 0 : int.Parse(sentId));
+                                return GetEmployees(string.IsNullOrWhiteSpace(sentId) ? "0" : sentId.ToString());
                             });
                         }
                         else
                         {
-                            employeeList = GetEmployees(string.IsNullOrWhiteSpace(sentId) ? 0 : int.Parse(sentId));
+                            employeeList = GetEmployees(string.IsNullOrWhiteSpace(sentId) ? "0" : sentId);
                         }
                         ViewBag.Warning = employeeList.Count() + " Result(s)...";
                         return View(employeeList);
@@ -102,17 +102,6 @@ namespace EmployeeApp.Controllers
         {
             EmployeeCreateModel employee = new EmployeeCreateModel();
             employee.Profiles = _employeeProfileService.GetEmployeeProfileList();
-
-            //List<SelectListItem> items = profiles.ConvertAll(d =>
-            //{
-            //    return new SelectListItem()
-            //    {
-            //        Text = d.Name.ToString(),
-            //        Value = d.Id.ToString(),
-            //        Selected = false
-            //    };
-            //});
-            //ViewBag.items = items;
             return View(employee);
         }
 
@@ -122,7 +111,7 @@ namespace EmployeeApp.Controllers
             Profile profile = null;
             try
             {
-                profile = _employeeProfileService.GetEmployeeProfile(employeeCreateModel.ProfileId.Value);
+                profile = _employeeProfileService.GetEmployeeProfile(employeeCreateModel.ProfileId);
                 if (ModelState.IsValid)
                 {
                     var employee = new Employee()
@@ -151,7 +140,7 @@ namespace EmployeeApp.Controllers
             }
         }
 
-        public ActionResult Edit(int Id)
+        public ActionResult Edit(string Id)
         {
             EmployeeCreateModel employee = GetEmployee(Id);
             employee.Profiles = _employeeProfileService.GetEmployeeProfileList();
@@ -166,7 +155,7 @@ namespace EmployeeApp.Controllers
 
             try
             {
-                profile = _employeeProfileService.GetEmployeeProfile(employeeCreateModel.ProfileId.Value);
+                profile = _employeeProfileService.GetEmployeeProfile(employeeCreateModel.ProfileId);
                 if (ModelState.IsValid)
                 {
                     //Transform = new Transforms(employeeCreateModel);
@@ -223,14 +212,14 @@ namespace EmployeeApp.Controllers
         #endregion
 
         #region --------Methods-------
-        public List<EmployeeModel> GetEmployees(int id = 0)
+        public List<EmployeeModel> GetEmployees(string id = "0")
         {
             try
             {
                 //var lista = _unitOfWork.EmployeeRepository.GetAll().Cast<IEmployee>().ToList();
                 var EmployeeModelList = new List<EmployeeModel>();
                 //var employees = _employeeService.GetEmployeeListDB();
-                var employees = id == 0 ?
+                var employees = id == "0" ?
                          _employeeService.GetEmployeeDetailedListDB() :
                          _employeeService.GetEmployeeDetailedListDB().Where(x => x.Id == id).ToList();
                         //_employeeService.GetEmployeeList() :
@@ -250,11 +239,11 @@ namespace EmployeeApp.Controllers
                 throw;
             }
         }
-        public List<EmployeeModel> GetEmptyEmployeesList(int id = 0)
+        public List<EmployeeModel> GetEmptyEmployeesList(string id = "0")
         {
             return new List<EmployeeModel>();
         }
-        public EmployeeCreateModel GetEmployee(int id)
+        public EmployeeCreateModel GetEmployee(string id)
         {
             //Transforms Transform = null;
             try

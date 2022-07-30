@@ -10,14 +10,14 @@ namespace DLMongo.Repository
 {
     public class BaseMongoRepository<IEntity> : IBaseRepository<IEntity> where IEntity : class
     {
-        internal IMongoDbRepository _repository;
-        IMongoCollection<IEntity> Collection;
+        readonly IMongoDbRepository _repository;
+        public readonly IMongoCollection<IEntity> Collection;
         public BaseMongoRepository(IMongoDbRepository repository, string CollectionName)
         {
-            _repository = repository;
-            Collection = _repository.db.GetCollection<IEntity>(CollectionName);
+            //_repository = repository;
+            Collection = repository.db.GetCollection<IEntity>(CollectionName);
         }
-        public IEntity Get(int id)
+        public IEntity Get(string id)
         {
             var filter = Builders<IEntity>.Filter.Eq("Id", id.ToString());
             return Collection.Find(filter).FirstOrDefault();
@@ -26,6 +26,7 @@ namespace DLMongo.Repository
         {
             var coll= Collection.Find(new BsonDocument()).ToList();
             return coll;
+
         }
         public void Add(IEntity entity)
         {

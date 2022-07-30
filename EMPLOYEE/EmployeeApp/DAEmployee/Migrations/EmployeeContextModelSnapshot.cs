@@ -21,9 +21,8 @@ namespace DL.Migrations
 
             modelBuilder.Entity("BE.Employee", b =>
                 {
-                    b.Property<int?>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<string>("Id")
+                        .ValueGeneratedOnAdd();
 
                     b.Property<string>("ContractTypeName");
 
@@ -35,7 +34,7 @@ namespace DL.Migrations
 
                     b.Property<string>("Name");
 
-                    b.Property<int?>("ProfileId");
+                    b.Property<string>("ProfileId");
 
                     b.Property<string>("ProfileName");
 
@@ -50,9 +49,8 @@ namespace DL.Migrations
 
             modelBuilder.Entity("BE.Profile", b =>
                 {
-                    b.Property<int?>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<string>("Id")
+                        .ValueGeneratedOnAdd();
 
                     b.Property<DateTime>("DateCreated");
 

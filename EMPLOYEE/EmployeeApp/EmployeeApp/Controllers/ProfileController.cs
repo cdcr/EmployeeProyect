@@ -39,7 +39,7 @@ namespace EmployeeApp.Controllers
                         //Servicio 
                         //var employeeList = GetEmployeesFromAPI(string.IsNullOrWhiteSpace(sentId) ? 0 : int.Parse(sentId));
                         //Base de Datos
-                        var employeeProfileList = GetEmployeeProfiles(string.IsNullOrWhiteSpace(sentId) ? 0 : int.Parse(sentId));
+                        var employeeProfileList = GetEmployeeProfiles(string.IsNullOrWhiteSpace(sentId) ? "0" : sentId);
                         ViewBag.Warning = employeeProfileList.Count() + " Result(s)...";
                         return View(employeeProfileList);
                     }
@@ -68,7 +68,7 @@ namespace EmployeeApp.Controllers
                 {
                     Profile employeeProfile = new Profile()
                     {
-                        Id = employeeProfileModel.Id,
+                        //Id = employeeProfileModel.Id,
                         Description = employeeProfileModel.Description,
                         DateCreated = employeeProfileModel.DateCreated,
                         DateUpdated = employeeProfileModel.DateUpdated,
@@ -90,7 +90,7 @@ namespace EmployeeApp.Controllers
             }
         }
 
-        public ActionResult Edit(int Id)
+        public ActionResult Edit(string Id)
         {
             ProfileModel employeeProfile = GetProfile(Id);
             return View(employeeProfile);
@@ -146,12 +146,12 @@ namespace EmployeeApp.Controllers
         #endregion
 
         #region --------Methods-------
-        public List<ProfileModel> GetEmployeeProfiles(int id = 0)
+        public List<ProfileModel> GetEmployeeProfiles(string id = "0")
         {
             try
             {
                 var EmployeeProfileModelList = new List<ProfileModel>();
-                var employeeProfiles = id == 0 ?
+                var employeeProfiles = id == "0" ?
                          _employeeProfileService.GetEmployeeProfileList() :
                          _employeeProfileService.GetEmployeeProfileList().Where(x => x.Id == id).ToList();
                 foreach (var item in employeeProfiles)
@@ -178,7 +178,7 @@ namespace EmployeeApp.Controllers
         {
             return new List<ProfileModel>();
         }
-        public ProfileModel GetProfile(int id)
+        public ProfileModel GetProfile(string id)
         {
             try
             {

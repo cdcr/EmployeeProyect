@@ -8,7 +8,7 @@ namespace BE.Abstract.Interfaces.Service
     {
         List<Profile> GetEmployeeProfileListDB();
         List<Profile> GetEmployeeProfileList();
-        Profile GetEmployeeProfile(int id);
+        Profile GetEmployeeProfile(string id);
         void AddEmployeeProfileDB(Profile employeeProfile);
         void UpdateEmployeeProfileDB(Profile employeeProfile);
         void RemoveEmployeeProfileDB(Profile employeeProfile);

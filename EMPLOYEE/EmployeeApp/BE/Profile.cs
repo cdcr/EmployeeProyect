@@ -10,7 +10,8 @@ namespace BE
     {
         [BsonId]
         [Key]
-        public int? Id { get; set; }
+        [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
+        public string Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public int Salary { get; set; }

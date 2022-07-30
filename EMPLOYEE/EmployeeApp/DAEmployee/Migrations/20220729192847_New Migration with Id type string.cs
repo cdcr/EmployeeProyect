@@ -1,10 +1,9 @@
 ﻿using System;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DL.Migrations
 {
-    public partial class NewMigration : Migration
+    public partial class NewMigrationwithIdtypestring : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -12,8 +11,7 @@ namespace DL.Migrations
                 name: "Profiles",
                 columns: table => new
                 {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<string>(nullable: false),
                     Name = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
                     Salary = table.Column<int>(nullable: false),
@@ -29,9 +27,8 @@ namespace DL.Migrations
                 name: "Employees",
                 columns: table => new
                 {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    ProfileId = table.Column<int>(nullable: true),
+                    Id = table.Column<string>(nullable: false),
+                    ProfileId = table.Column<string>(nullable: true),
                     ProfileName = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     ContractTypeName = table.Column<string>(nullable: true),

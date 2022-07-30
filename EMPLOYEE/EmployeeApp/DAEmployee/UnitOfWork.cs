@@ -12,15 +12,16 @@ namespace DL
     public class UnitOfWork : IUnitOfWork
     {
         private EmployeeContext _context;
-
+        private IConfiguration _configuration;
         public UnitOfWork()
         {
         }
-        public UnitOfWork(/*DbContextOptions<EmployeeContext> options*/ EmployeeContext context)
+        public UnitOfWork(/*DbContextOptions<EmployeeContext> options*/ EmployeeContext context,IConfiguration configuration)
         {
             this._context = context;
-            EmployeeRepository = new EmployeeRepository(_context);
-            ProfileRepository = new ProfileRepository(_context);
+            _configuration = configuration;
+            EmployeeRepository = new EmployeeRepository(_context,_configuration);
+            ProfileRepository = new ProfileRepository(_context,_configuration);
         }
 
 

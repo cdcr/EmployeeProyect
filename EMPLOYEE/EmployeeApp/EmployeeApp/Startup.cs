@@ -61,7 +61,7 @@ namespace EmployeeApp
                 services.AddTransient<IUnitOfWork, UnitOfWorkMongo>();
                 services.AddMemoryCache();
                 services.AddTransient<IEmployeeRepository, EmployeeMongoRepository>();
-                services.AddTransient<IEmployeeRepository, EmployeeClientRepository>();
+                //services.AddTransient<IEmployeeRepository, EmployeeClientRepository>();
                 services.AddTransient<IProfileRepository, ProfileMongoRepository>();
                 services.AddTransient<IEmployeeService, EmployeeMongoService>();
                 services.AddTransient<IProfileService, ProfileMongoService>();

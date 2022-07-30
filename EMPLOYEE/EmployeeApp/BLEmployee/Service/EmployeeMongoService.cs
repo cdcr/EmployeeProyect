@@ -42,7 +42,7 @@ namespace BL.Service
             return _unitOfWork.EmployeeRepository.GetEmployeeList();
         }
         ///
-        public Employee GetEmployee(int id)
+        public Employee GetEmployee(string id)
         {
             return _unitOfWork.EmployeeRepository.Get(id);
         }
@@ -86,12 +86,12 @@ namespace BL.Service
         //DETAILED METHODS -----------------------------------------
         public List<Employee> GetEmployeeDetailedListDB()
         {
-            var ProfileDocuments =  _unitOfWork.ProfileRepository.GetAll();
-            List<Employee> result = new List<Employee>();
-            ProfileDocuments.ToList().ForEach(item => result.AddRange(item.Employees.ToList()));
+            List<Employee> result = _unitOfWork.EmployeeRepository.GetAll().ToList();
+            //List<Employee> result = new List<Employee>();
+            //ProfileDocuments.ToList().ForEach(item => result.AddRange(item.Employees.ToList()));
             return result;
         }
-        public Employee GetEmployeeDetailedDB(int id)
+        public Employee GetEmployeeDetailedDB(string id)
         {
             var EmployeeList = GetEmployeeDetailedListDB();
             return EmployeeList.FirstOrDefault(item => item.Id == id);
@@ -100,14 +100,14 @@ namespace BL.Service
         {
             //var Id = employee.Id==null? 0:employee.Id.Value; 
             //_unitOfWork.EmployeeRepository.Get(employee.Id.Value).IsDeleted=true;
-            _unitOfWork.EmployeeRepository.RemoveemployeeDetailed(employee.Id.Value);
+            _unitOfWork.EmployeeRepository.RemoveemployeeDetailed(employee.Id);
             _unitOfWork.Complete();
         }
 
         public void AddEmployeeDetailedDB(Employee employee)
         {
-            var currentEmployee = GetEmployeeDetailedDB(employee.Id.GetValueOrDefault());
-            var currentProfile = _unitOfWork.ProfileRepository.Get(employee.ProfileId.GetValueOrDefault());
+            var currentEmployee = GetEmployeeDetailedDB(employee.Id);
+            var currentProfile = _unitOfWork.ProfileRepository.Get(employee.ProfileId);
             if (currentProfile.Employees.Any(item => item.Id == employee.Id))
                 currentProfile.Employees.Remove(currentEmployee);
             currentProfile.Employees.Add(employee);

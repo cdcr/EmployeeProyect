@@ -38,13 +38,13 @@ namespace BL.Service
         {
             return _unitOfWork.EmployeeRepository.GetEmployeeList();
         }
-        public Employee GetEmployee(int id)
+        public Employee GetEmployee(string id)
         {
             return _unitOfWork.EmployeeRepository.Get(id);
         }
         public void AddEmployeeDB(Employee employee)
         {
-            _unitOfWork.EmployeeRepository.Add(employee);
+            _unitOfWork.EmployeeRepository.AddEmployeeDetailed(employee);
             _unitOfWork.Complete();
         }
         public void UpdateEmployeeDB(Employee employee)
@@ -91,7 +91,7 @@ namespace BL.Service
             return employees;
 
         }
-        public Employee GetEmployeeDetailedDB(int id)
+        public Employee GetEmployeeDetailedDB(string id)
         {
             return _unitOfWork.EmployeeRepository.GetEmployeeDetailed(id);
         }
@@ -99,13 +99,13 @@ namespace BL.Service
         {
             //var Id = employee.Id==null? 0:employee.Id.Value; 
             //_unitOfWork.EmployeeRepository.Get(employee.Id.Value).IsDeleted=true;
-            _unitOfWork.EmployeeRepository.RemoveemployeeDetailed(employee.Id.Value);
+            _unitOfWork.EmployeeRepository.RemoveemployeeDetailed(employee.Id);
             _unitOfWork.Complete();
         }
 
         public void AddEmployeeDetailedDB(Employee employee)
         {
-            _unitOfWork.EmployeeRepository.Add(employee);
+            _unitOfWork.EmployeeRepository.AddEmployeeDetailed(employee);
             _unitOfWork.Complete();
         }
 
@@ -114,5 +114,6 @@ namespace BL.Service
             _unitOfWork.EmployeeRepository.Update(employee);
             _unitOfWork.Complete();
         }
+
     }
 }

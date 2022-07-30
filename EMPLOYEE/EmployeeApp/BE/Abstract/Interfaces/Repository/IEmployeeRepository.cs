@@ -8,7 +8,8 @@ namespace BE.Abstract.Interfaces.Repository
     {
         List<Employee> GetEmployeeList();
         List<Employee> GetEmployeeDetailedList();
-        Employee GetEmployeeDetailed(int id);
-        void RemoveemployeeDetailed(int id);
+        Employee GetEmployeeDetailed(string id);
+        void RemoveemployeeDetailed(string id);
+        void AddEmployeeDetailed(Employee employee);
     }
 }

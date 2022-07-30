@@ -4,9 +4,8 @@ using System.Text;
 
 namespace BE.Abstract.Interfaces
 {
-    public interface IEmployeeDTO
+    public interface IEmployeeDTO:IEntityBase
     {
-        int ID { get; set; }
         string Name { get; set; }
         string ContractTypeName { get; set; }
         int RoleId { get; set; }

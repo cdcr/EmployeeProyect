@@ -23,17 +23,7 @@ namespace Core.Model.Entity
         public Employee()
         {
         }
-        public Employee(IEmployee DTO)
-        {
-            Id = DTO.Id;
-            Name = DTO.Name;
-            ContractTypeName = DTO.ContractTypeName;
-            ProfileId = DTO.ProfileId;
-            ProfileName = DTO.ProfileName;
-            RoleDescription = DTO.RoleDescription;
-            HourlySalary = DTO.HourlySalary;
-            MonthlySalary = DTO.MonthlySalary;
-        }
+        
 
     }
 }

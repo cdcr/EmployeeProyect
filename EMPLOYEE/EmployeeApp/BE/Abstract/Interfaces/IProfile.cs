@@ -2,9 +2,8 @@
 
 namespace BE.Abstract.Interfaces
 {
-    public interface IProfile
+    public interface IProfile:IEntityBase
     {
-        int? Id { get; set; }
         string Name { get; set; }
         string Description { get; set; }
         int Salary { get; set; }

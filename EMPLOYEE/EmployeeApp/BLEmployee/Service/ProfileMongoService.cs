@@ -26,7 +26,7 @@ namespace BL.Service
             return employeeProfiles;
         }
 
-        public Profile GetEmployeeProfile(int id)
+        public Profile GetEmployeeProfile(string id)
         {
             return _unitOfWork.ProfileRepository.Get(id);
         }

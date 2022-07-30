@@ -25,7 +25,7 @@ namespace DLService.Repository
             throw new NotImplementedException();
         }
 
-        public Employee GetEmployeeDetailed(int id)
+        public Employee GetEmployeeDetailed(string id)
         {
             throw new NotImplementedException();
         }
@@ -53,7 +53,12 @@ namespace DLService.Repository
             }
         }
 
-        public void RemoveemployeeDetailed(int id)
+        public void RemoveemployeeDetailed(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void AddEmployeeDetailed(Employee employee)
         {
             throw new NotImplementedException();
         }
