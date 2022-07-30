@@ -1,15 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Threading.Tasks;
 
 namespace BE.Abstract.Interfaces.Repository
 {
-    public interface IBaseRepository<TEntity> where TEntity : class
+    public interface IBaseRepository<IEntity> where IEntity : class
     {
-        TEntity Get(int id);
-        IEnumerable<TEntity> GetAll();
-        void Add(TEntity entity);
-        void Remove(TEntity entity);
-    }
+        IEntity Get(string id);
+        IEnumerable<IEntity> GetAll();
+        void Add(IEntity entity);
+        void Remove(IEntity entity);
+        void Update(IEntity entity);
+        void Save(IEntity entity);
 
+    }
+    //TEntity Get(int id);
+    //IEnumerable<TEntity> GetAll();
+    //void Add(TEntity entity);
+    //void Remove(TEntity entity);
+    //void Update(TEntity entity);
+    //void Save(IEntity entity);
 }

@@ -4,15 +4,15 @@ using System.Text;
 
 namespace BE.Abstract.Interfaces
 {
-    public interface IEmployee
+    public interface IEmployee:IEntityBase
     {
-        int ID { get; set; }
+        string ProfileId { get; set; }
+        string ProfileName { get; set; }
         string Name { get; set; }
         string ContractTypeName { get; set; }
-        int RoleId { get; set; }
-        string RoleName { get; set; }
         string RoleDescription { get; set; }
         double HourlySalary { get; set; }
         double MonthlySalary { get; set; }
+        bool IsDeleted { get; set; }
     }
 }

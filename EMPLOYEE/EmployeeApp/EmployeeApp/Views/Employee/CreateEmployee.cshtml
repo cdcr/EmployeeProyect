@@ -1,8 +1,8 @@
-﻿@model EmployeeApp.Models.EmployeeModel
+﻿@model EmployeeApp.Models.EmployeeCreateModel
 
 @{
-    
-    ViewData["Title"] = "CreateEmployee";
+    ViewBag.Title = "Create Employee";
+    List<SelectListItem> items = (List<SelectListItem>)ViewBag.items;
 }
 <h2>Create Employee</h2>
 
@@ -11,25 +11,43 @@
 {
     <div class="row">
         <div class="form-group col-lg-6">
-            @Html.LabelFor(model => model.ID)
-            @Html.TextBoxFor(model => model.ID, "", new { @class = "form-control" })
-            @Html.LabelFor(model => model.Name)
-            @Html.TextBoxFor(model => model.Name,"", new { @class = "form-control" })
-            @Html.LabelFor(model => model.ContractTypeName)
-            @Html.TextBoxFor(model => model.ContractTypeName,"", new { @class = "form-control" })
-            @Html.LabelFor(model => model.RoleId)
-            @Html.TextBoxFor(model => model.RoleId, "", new { @class = "form-control" })
-            @Html.LabelFor(model => model.RoleName)
-            @Html.TextBoxFor(model => model.RoleName, "", new { @class = "form-control" })
-            @Html.LabelFor(model => model.RoleDescription)
-            @Html.TextBoxFor(model => model.RoleDescription, "", new { @class = "form-control" })
-            @Html.LabelFor(model => model.HourlySalary)
-            @Html.TextBoxFor(model => model.HourlySalary, "", new { @class = "form-control" })
-            @Html.LabelFor(model => model.MonthlySalary)
-            @Html.TextBoxFor(model => model.MonthlySalary,"", new { @class = "form-control" })
-        <div>
-            <input value="Save" class="btn btn-primary" type="submit" />
-        </div>
+            <div>
+                @Html.LabelFor(model => model.Name)
+                @Html.TextBoxFor(model => model.Name, "", new { @class = "form-control" })
+
+            </div>
+            <div>
+                @Html.LabelFor(model => model.ContractTypeName)
+                @Html.TextBoxFor(model => model.ContractTypeName, "", new { @class = "form-control" })
+            </div>
+
+            <div>
+                @Html.LabelFor(model => model.ProfileName)
+                @*@Html.TextBoxFor(model => model.ProfileName, "", new { @class = "form-control" })*@
+                @*@Html.DropDownList("Profiles", items, "Select the profile", new { @class = "form-control" })*@
+                @Html.DropDownListFor(model => model.ProfileId, new SelectList(Model.Profiles, "Id", "Name"), "Select the profile", new { @class = "form-control" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.Description)
+                @Html.TextBoxFor(model => model.Description, "", new { @class = "form-control" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.HourlySalary)
+                @Html.TextBoxFor(model => model.HourlySalary, "", new { @class = "form-control" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.MonthlySalary)
+                @Html.TextBoxFor(model => model.MonthlySalary, "", new { @class = "form-control" })
+            </div>
+
+            @*@Html.ValidationMessageFor(model=>model.Name,null,new { @class="red"})*@
+
+            @*@Html.LabelFor(model => model.ProfileId)
+                @Html.TextBoxFor(model => model.ProfileId, "", new { @class = "form-control" })*@
+            <div>
+                <input type="submit" value="Create" class="btn btn-success" /> |
+                <a asp-action="Index" class="btn btn-info">Return</a>
+            </div>
         </div>
     </div>
 }

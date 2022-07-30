@@ -20,14 +20,14 @@ namespace EmployeeApp.Facade
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public List<EmployeeModel> GetEmployeesFromAPI(int id = 0)
+        public List<EmployeeModel> GetEmployeesFromAPI(string id = "0")
         {
             try
             {
                 var EmployeeModelList = new List<EmployeeModel>();
-                var EmployeeList = id == 0 ?
+                var EmployeeList = id == "0" ?
                         employeeClientService.GetEmployeeListDB() :
-                        employeeClientService.GetEmployeeListDB().Where(x => x.ID == id).ToList();
+                        employeeClientService.GetEmployeeListDB().Where(x => x.Id == id).ToList();
                 foreach (var employeeListItem in EmployeeList)
                 {
                     double anualSalary = employeeClientService.GetAnualSalary(employeeListItem);

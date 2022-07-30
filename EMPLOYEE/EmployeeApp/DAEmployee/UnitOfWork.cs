@@ -11,31 +11,31 @@ namespace DL
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly DbContext _context;
-        //public readonly IConfiguration _configuration;
-        public UnitOfWork(DbContext context/*, IConfiguration configuration*/)
+        private EmployeeContext _context;
+        private IConfiguration _configuration;
+        public UnitOfWork()
         {
-            _context = context;
-            //_configuration = configuration;
-            //EmployeeClientRepository = new EmployeeClientRepository(_configuration);
-            EmployeeRepository = new EmployeeRepository(_context);
-            
         }
-        
-        public IEmployeeRepository EmployeeRepository { get; private set; }
-        //public IEmployeeClientRepository EmployeeClientRepository { get; private set; }
+        public UnitOfWork(/*DbContextOptions<EmployeeContext> options*/ EmployeeContext context,IConfiguration configuration)
+        {
+            this._context = context;
+            _configuration = configuration;
+            EmployeeRepository = new EmployeeRepository(_context,_configuration);
+            ProfileRepository = new ProfileRepository(_context,_configuration);
+        }
 
-        //Modification
-        /*public UnitOfWork(IConfiguration iconfiguration)
-        {
-            //_iconfiguration = iconfiguration;
-            //EmployeeClientRepository = new EmployeeClientRepository(_iconfiguration);
-        }
-        //--
-        */
+
+        public IEmployeeRepository EmployeeRepository { get; private set; }
+        public IProfileRepository ProfileRepository { get; private set; }
+
         public int Complete()
         {
             return _context.SaveChanges();
+        }
+
+        public int CompleteMongo()
+        {
+            throw new NotImplementedException();
         }
 
         public void Dispose()
